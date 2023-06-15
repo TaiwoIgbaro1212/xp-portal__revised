@@ -1,6 +1,37 @@
-# Getting Started with Create React App
+# REACT REDUX X-PLUG TEAM 7 TEST
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with
+
+1. [Create React App](https://github.com/facebook/create-react-app) (JS).
+1. [Tailwind css](https://tailwindcss.com/).
+1. [Redux toolkit](https://redux-toolkit.js.org/).
+
+## Github Procedures
+
+These Github procedures are to guide you on the [X-PLUG TEAM 7 TEST PROJECT](https://github.com/TaiwoIgbaro1212/xp-portal__revised) and would encourage a real world team experience as we go.
+
+### `git pull origin main`
+
+> git pull origin main
+
+The `git pull origin main` fetches any current changes that has been merged into the master branch...
+It is advisable to always pull from the master branch into your local repository before making any push in order to pick up changes made by other team mates.
+
+See the section about [main branch](https://github.com/TaiwoIgbaro1212/xp-portal__revised) for more information.
+
+### `git checkout -b name-new-branch`
+
+> git checkout -b name-new-branch
+
+The `git checkout -b name-new-branch` creates a new branch locally for you ensuring you are working on a safe code space and any unknown new defects would not affect the already working code base.
+After each branch has been deployed it will be reviewed before any merge changes into the main branch
+
+### `contributors`
+
+- @TaiwoIgbaro1212
+- @ryanfavour4
+- @Thi-mee
+- @Joshthefullstacktack
 
 ## Available Scripts
 
@@ -9,7 +40,7 @@ In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3003](http://localhost:3003) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
