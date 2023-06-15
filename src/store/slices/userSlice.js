@@ -1,9 +1,9 @@
 // create a user slice
 import { createSlice } from "@reduxjs/toolkit";
-import users from "../../dummy.json";
+import usersArray from "../../dummy.json";
 
 const initialState = {
-  users: users,
+  data: usersArray,
 };
 
 const userSlice = createSlice({
@@ -12,6 +12,6 @@ const userSlice = createSlice({
   reducers: {},
 });
 
-export const allUsers = (state) => state.allUsers.users;
+export const users = (state) => state.users.data;
 
 export default userSlice.reducer;
